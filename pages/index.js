@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import link from 'next/link';
 
 export default function Home() {
   return (
@@ -33,11 +34,11 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="/About"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>About &rarr;</h2>
+            <p>Test about JD :P presionameeeee</p>
           </a>
 
           <a
