@@ -34,7 +34,7 @@ export default function Home() {
           </a>
 
           <a
-            href="/About"
+            href="/Acbout"
             className={styles.card}
           >
             <h2>About &rarr;</h2>
